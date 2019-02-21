@@ -13,7 +13,11 @@
 
 	class Log implements LoggerInterface
 	{
-
+		/**
+		 * @param $textLog
+		 * @param $file
+		 * http://php.net/manual/ru/function.fopen.php
+		 */
 		public static function logFile($textLog,$file)
 		{
 			$text = '==========================\n';
