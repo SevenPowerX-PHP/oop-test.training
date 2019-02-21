@@ -1,0 +1,20 @@
+{
+  "name": "splx/oop-test",
+  "description": "autoload composer psr-4",
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Andrii Lav",
+	  "email": "splaandrey@gmail.com"
+	}
+  ],
+  "autoload": {
+	"psr-4": {
+	  "Splx\\": "src/splx/"	,
+"training\\": "src/training/"
+	}
+  },
+  "require": {
+    "monolog/monolog": "1.24.0"
+  }
+}
